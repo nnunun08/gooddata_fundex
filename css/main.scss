@@ -260,6 +260,7 @@ button {
 
     .searchList {
         display: none;
+        &.hasItem,
         &:has(.list) {
             display: block;
         }

@@ -274,7 +274,7 @@ button {
   text-align: left;
   background-color: #fff;
 }
-.searchWrap .searchList:has(.list) {
+.searchWrap .searchList.hasItem, .searchWrap .searchList:has(.list) {
   display: block;
 }
 .searchWrap .searchList .list {

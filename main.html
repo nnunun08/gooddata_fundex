@@ -23,7 +23,8 @@
                 <button class="searchBtn">검색</button>
 
                 <!-- .searchList 에 .list 아이템이 추가되면 패널이 display 됩니다. 반대로 .list 아이템이 없다면 숨김처리 됩니다. -->
-                <div class="searchList">
+                <!-- 파이어폭스 크로스브라우징 대응 : .searchList 에 .list 아이템이 추가될 때 .searchList에 .hasItem 라는 클래스를 붙여주세요. searchList hasItem 두 클래스를 가지고 있을때 패널이 display 됩니다. 또는 해당 요소에 style="display:block;" 넣어주셔도 됩니다. -->
+                <div class="searchList hasItem">
                     <a href="#" class="list">
                         <img src="https://image.tving.com/ntgs/contents/CTC/caip/CAIP0900/ko/20230724/P001739513.jpg/dims/resize/F_webp,480" alt="searchItem">
                         <p class="tit">사랑은 저멀리</p>
